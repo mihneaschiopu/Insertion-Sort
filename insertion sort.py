@@ -21,7 +21,7 @@ for index in range (1, len(nlist)):
 
         nlist[index2] = nlist[index2-1]
         index2 = index2 - 1
-
+        print(nlist)
     nlist[index2] = current
 
 
@@ -38,3 +38,4 @@ print(nlist)
     
 
     
+
